@@ -1,0 +1,47 @@
+.headingEle {
+    margin: 8px;
+}
+
+.parentContainer{
+    
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#search {
+    width: 200px;
+    height: 40px;
+}
+
+.card {
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.ele {
+    margin: 10px;
+}
+
+.cardEle {
+    display: flex;
+    flex-direction: column;
+}
+
+#img {
+    width: 80%;
+    height: 40%;
+    margin-left: 8px;
+}

@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.inputBox {
+    border: 1px solid black;
+    position: relative;
+}
+
+.inputBox > .todoInput {
+    border: 0px;
+    padding: 10px;
+    width: calc(100% -40px);
+}
+
+.inputBox > input:focus-visible {
+    outline: none;
+}
+
+.cross {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 15px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.todoList {
+    padding: 0;
+    list-style: none;
+}
+.todoList input {
+    /* width: calc(100% - 20px); */
+}
+
+.todoList > li {
+    margin-bottom: 20px;
+}
+
+.todoList .cross {
+   right: -20px;
+
+}
